@@ -110,4 +110,6 @@
   //モンスポット
   selectSpot.addEventListener('change', (e) => SelectSpot(e));
 
+  //test
+
 })();

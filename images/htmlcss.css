@@ -1,0 +1,161 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    font-family: "M PLUS Rounded 1c";
+    font-size: 1.2rem;
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(to right, rgb(161, 143, 143), rgba(219, 54, 54, 0.2));
+    overflow: hidden;
+    position: relative;
+
+}
+
+.logo{
+    width: 15%;
+    height: 15%;
+    margin-right: 20px;
+}
+
+nav {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    align-items: center;
+    font-weight: 550;
+    position: sticky;
+    z-index:1;
+}
+
+.logo-area{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links{
+    flex:1;
+    text-align: right;
+
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links ul li{
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+.nav-links ul a{
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-links ul a:hover{
+    color: #f1f1f1;
+}
+
+.information{
+    width: 1000px;
+    height: 1000px;
+
+    position :absolute;
+    top: 50%;
+    left: -10%;
+    transform: translateY(-50%);
+}
+
+#circle{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    transition:1s;
+}
+
+.feature{
+    position: absolute;
+    display: flex;
+    color : white;
+}
+
+.feature img{
+    width: 70px;
+}
+.feature div{
+    margin-left: 20px;
+    
+}
+
+.feature div a{
+    margin-top: 8px;
+}
+
+.one{
+
+    top: 450px;
+    right: 70px;
+}
+
+.two{
+    top: 100px;
+    left: 340px;
+    transform: rotate(-90deg);
+}
+
+.three{
+    bottom: 450px;
+    left: 50px;
+    transform: rotate(-180deg);
+}
+
+.four{
+    bottom: 150px;
+    right: 370px;
+    transform: rotate(-270deg);
+}
+
+.control{
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.control img{
+    width: 15%;
+}
+
+.control h3{
+    color: #fff;
+    margin: 20px 0;
+}
+
+#upBtn{
+    cursor: pointer;
+}
+
+#upBtn:hover{
+    cursor: pointer;
+    transform: rotate(-180deg);
+}
+
+.overlay{
+    width:0;
+    height: 0;
+    border-top: 520px solid #fff;
+    border-right: 520px solid transparent;
+    border-bottom: 520px solid #fff;
+    border-left: 520px solid #fff;
+    
+} */

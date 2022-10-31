@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> モンスト経験値計算</title>
+    <link rel="stylesheet" href="styles/style2.css">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <nav>
+            <div class="logo-area">
+                <img src="./images/logo.png" alt="モンスト経験値計算" class="logo">
+                <h1>モンスト経験値計算</h1>
+            </div>
+
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">トップ</a></li>
+                    <li><a href="nomadan.html">ノマダン</a></li>
+                    <li><a href="keiusa.html">けいうさダンジョン</a></li>
+                </ul>
+        </nav>
+
+        <div class ="title">
+            <h2>ノマダン</h2>
+        </div>
+
+        <div class="calculation">
+            <div class="calculation-rank">
+
+                <p>現在のランクから目標までのランクを計算します</p>
+                <label for="numForm1">現在のランク</label>
+                <input type="number" id="numForm1">
+                <br>
+                <label for="numForm2">目標のランク</label>
+                <input type="number" id="numForm2">
+                <br>
+                <button id ="button">OK</button>
+                <p>必要な経験値</p>
+                <div class="result"></div>
+            </div>
+
+
+            <div class="calculation-nomadan">
+                <h3>ノーマルダンジョンの経験値</h3>
+                <div class="def"></div>
+                <label>ノーマルダンジョンの経験値up率を選択してください</label>
+                    <select class="nomadan" name="nomadan">
+                      <option value="">なし</option>
+                      <option value="double">2倍</option>
+                      <option value="triple">3倍(ベル使用中)</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="buff">
+                <label>学びの力
+                    <select class="manabi" name="manabi">
+                      <option value="">なし</option>
+                      <option value="l">特級L</option>
+                      <option value="el">特級EL</option>
+                    </select>
+                </label>
+                <label>モンスポット
+                    <select class="spot" name="spot">
+                      <option value="">なし</option>
+                      <option value="low">exp25%</option>
+                      <option value="normal">exp50%</option>
+                      <option value="high">exp75%</option>
+                    </select>
+                </label>
+            </div>
+            
+            <div class ="count">
+                <button id = "button2">OK</button>
+                <h3>獲得経験値</h3>
+                <div class="final"></div>
+                <h3>目標ランクまでの周回回数</h3>
+                <div class="countResult"></div>
+            </div>
+        </div>
+        
+        
+    </div>
+
+    <script src="src/nomadan.js"></script>
+
+</body>
+
+</html>
